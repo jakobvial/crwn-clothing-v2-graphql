@@ -1,0 +1,12 @@
+query($title: String!) {
+    getCollectionsByTitle(title: $title) {
+        id
+        title
+        items {
+            id
+            name
+            price
+            imageUrl
+        }
+    }
+}

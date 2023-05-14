@@ -1,0 +1,2 @@
+schema: https://crwn-clothing.com/
+documents: '**/*.graphql'
